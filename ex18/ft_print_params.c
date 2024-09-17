@@ -16,19 +16,19 @@ void	ft_putchar(char c);
 int	main(int argc, char **argv)
 {
 	int	x;
-	int	y;
+	int	z;
 
 	x = 1;
-	y = 0;
+	z = 0;
 	while (x < argc)
 	{
-		while (argv[x][y] != '\0')
+		while (argv[x][z] != '\0')
 		{
-			ft_putchar(argv[x][y]);
-			y++;
+			ft_putchar(argv[x][z]);
+			z++;
 		}
 		ft_putchar('\n');
-		y = 0;
+		z = 0;
 		x++;
 	}
 	return (0);
