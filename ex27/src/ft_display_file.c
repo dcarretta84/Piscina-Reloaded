@@ -6,15 +6,15 @@
 /*   By: dacarret <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 10:51:55 by dacarret          #+#    #+#             */
-/*   Updated: 2024/09/19 14:36:36 by dacarret         ###   ########.fr       */
+/*   Updated: 2024/09/20 10:41:40 by dacarret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "lib.h"
 
 void	ft_display_file(char *file)
 {
-	int	res;
-	int	byte_read;
+	int		res;
+	int		byte_read;
 	char	buffer[BUFFER_SIZE];
 
 	res = open(file, O_RDONLY);
